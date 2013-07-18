@@ -274,6 +274,7 @@ ifeq ($(dvm_arch),arm)
   ifeq ($(TARGET_CPU_VARIANT),cortex-a15)
     LOCAL_CFLAGS += -DHAVE_HALFWORD_ATOMIC_MEMMOVE
   endif
+  LOCAL_CFLAGS += -DHAVE_HALFWORD_ATOMIC_MEMMOVE
   endif
 endif
 
